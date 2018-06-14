@@ -55,7 +55,7 @@ This method can be invoked on the instance of GoogleAuthentication class to leve
                  ]
       Google_tag_manager = GoogleAuthentication("tagmanager","v2", scope, credentials_directory_path, client_secret_json_file)
       
-  For first time and temporary API access and requests
+  For first time and temporary API queries
       
       service = Google_tag_manager.google_authorization_access()
       account_details = service.accounts().list().execute()
